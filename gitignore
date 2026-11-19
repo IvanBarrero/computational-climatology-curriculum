@@ -1,0 +1,88 @@
+# ==========================================
+# Climate & Geospatial Binary Data Formats
+# ==========================================
+*.nc
+*.nc4
+*.netcdf
+*.grib
+*.grib2
+*.grb
+*.hdf
+*.hdf5
+*.h5
+*.zarr/
+*.tif
+*.tiff
+*.cog
+*.shp
+*.shx
+*.dbf
+*.prj
+*.cpg
+
+# Local Data Directories
+data/
+raw_data/
+processed_data/
+outputs/
+cache/
+
+# ==========================================
+# API Keys, Credentials & Environment Secrets
+# ==========================================
+.env
+.cdsapirc
+*.pem
+*.key
+secrets.toml
+
+# ==========================================
+# Python & Jupyter Environments
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environments
+.venv/
+venv/
+ENV/
+env/
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# ==========================================
+# Julia Artifacts & Manifests (Optional/Temp)
+# ==========================================
+*.jl.cov
+*.jl.*.cov
+*.jl.mem
+
+# ==========================================
+# IDE & OS Specific Files
+# ==========================================
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db

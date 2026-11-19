@@ -1,0 +1,35 @@
+name: climate-sci
+channels:
+  - conda-forge
+  - nodefaults
+dependencies:
+  - python=3.11
+  # Core Scientific & Grid Engineering (Block 1)
+  - numpy
+  - scipy
+  - pandas
+  - xarray
+  - dask
+  - netcdf4
+  - h5netcdf
+  - cfgrib
+  - eccodes
+  # Statistics & Climate Signals (Blocks 3 & 6)
+  - eofs
+  - statsmodels
+  # Cartography & Geoprocessing (Block 4)
+  - cartopy
+  - geopandas
+  - shapely
+  - rasterio
+  - rioxarray
+  # Cloud Telemetry & APIs (Year 3)
+  - zarr
+  - pystac-client
+  - planetary-computer
+  - cdsapi
+  # Visualization & Dev
+  - matplotlib
+  - seaborn
+  - jupyterlab
+  - ipykernel
