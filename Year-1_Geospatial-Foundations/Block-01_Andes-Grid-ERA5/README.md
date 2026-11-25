@@ -59,7 +59,7 @@ Block-01_Andes-Grid-ERA5/
 1. **Activate the repository environment** (from the repository root):
    ```bash
    conda env create -f ../../environment.yml
-   conda activate climate-sci
+   conda activate climate-env
    ```
 2. **Configure Copernicus CDS Credentials:** Ensure `~/.cdsapirc` is configured with your personal Copernicus Climate Data Store API key.
 3. **Fetch ERA5 Data:**

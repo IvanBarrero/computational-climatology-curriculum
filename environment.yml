@@ -1,4 +1,4 @@
-name: climate-sci
+name: climate-env
 channels:
   - conda-forge
   - nodefaults
